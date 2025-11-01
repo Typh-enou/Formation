@@ -23,5 +23,13 @@ FONCTION FizzBuzz(Entier n):Texte
 FONCTION EstMultipleDe(Entier x, Entier y):Booleen
 
 
-______
+FONCTION Somme(Entier n): Entier // Calculer la somme des nombres de 1 à n // à faire
+var n = LongueurTexte()
+    POUR i de 1 à n
+        var resultat = n(n+1)/2
+        Afficher(resultat)
+
+FONCTION Inverser(Texte t): Texte // Changer Zouzou en uozuoZ // à faire 
+    POUR t de n à 1 STEP -1
+    Afficher(t)
 

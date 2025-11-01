@@ -29,10 +29,15 @@ FONCTION Somme(Entier n): Entier // Calculer la somme des nombres de 1 à n // �
         somme = somme + i
     RETOURNER somme
 
-FONCTION SuperSomme(Entier n): Entier // Calculer la somme des nombres de 1 à n // à faire
+FONCTION SuperSomme(Entier n): Entier
     RETOURNER n*(n+1)/2
 
 FONCTION Inverser(Texte t): Texte // Changer Zouzou en uozuoZ // à faire 
-    POUR t de n à 1 STEP -1
-    Afficher(t)
+    var texte = "Zouzou"
+    var lettre = texte[5]
+    POUR i de 5 à 0 STEP -1
+        lettre = texte[n-1]
+        var resultat = lettre + texte[n-1]
+    Afficher(resultat)
+        
 

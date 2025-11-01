@@ -24,10 +24,13 @@ FONCTION EstMultipleDe(Entier x, Entier y):Booleen
 
 
 FONCTION Somme(Entier n): Entier // Calculer la somme des nombres de 1 à n // à faire
-var n = LongueurTexte()
+    var somme = 0
     POUR i de 1 à n
-        var resultat = n(n+1)/2
-        Afficher(resultat)
+        somme = somme + i
+    RETOURNER somme
+
+FONCTION SuperSomme(Entier n): Entier // Calculer la somme des nombres de 1 à n // à faire
+    RETOURNER n*(n+1)/2
 
 FONCTION Inverser(Texte t): Texte // Changer Zouzou en uozuoZ // à faire 
     POUR t de n à 1 STEP -1

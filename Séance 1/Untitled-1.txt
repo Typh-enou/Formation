@@ -1,0 +1,27 @@
+Afficher("Entrez un chiffre !")
+var chiffre = SaisirEntier()
+
+POUR i de 1 à chiffre
+    var resultat = FizzBuzz(i)
+    Afficher(resultat)
+
+FONCTION SaisirEntier():Entier
+    RETOURNER ConvertirEnEntier(Saisir()) 
+
+FONCTION ConvertirEnTexte(Entier n):Texte 
+
+FONCTION FizzBuzz(Entier n):Texte
+    SI EstMultipleDe(n, 15)
+        RETOURNER "FizzBuzz"
+    SI EstMultipleDe(n, 3)
+        RETOURNER "Fizz"
+    SI EstMultipleDe(n, 5)
+        RETOURNER "Buzz"
+
+    RETOURNER ConvertirEnTexte(n)
+
+FONCTION EstMultipleDe(Entier x, Entier y):Booleen
+
+
+______
+

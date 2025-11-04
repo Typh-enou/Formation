@@ -33,11 +33,10 @@ FONCTION SuperSomme(Entier n): Entier
     RETOURNER n*(n+1)/2
 
 FONCTION Inverser(Texte t): Texte // Changer Zouzou en uozuoZ // à faire 
-    var texte = SaisirTexte()
+    var texte = t
     var lettre = ""
-
-    POUR i de texte[n] à texte[0] STEP -1
-        lettre = lettre + texte[i]
+    POUR i de n à 0 STEP -1
+        lettre = lettre + texte[n]
     RETOURNER lettre
 
 var texte = SaisirTexte()
